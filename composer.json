@@ -1,0 +1,15 @@
+{
+  "name": "vendor_name/grammar2parser",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Herman Peeren",
+      "email": "herman@yepr.nl"
+    }
+  ],
+  "require": {
+    "mathiasverraes/parsica": "0.4.0"
+  }
+}

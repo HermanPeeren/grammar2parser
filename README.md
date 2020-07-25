@@ -8,7 +8,7 @@ Grammar is the language of languages; a grammar defines the well-formed strings 
 array = '[' whitespace ']' | '[' elements ']'
 elements = element ',' elements | element
 element = whitespace value whitespace
-whitespace = ' ' | '\n' | | '\r' | '\t' | ''
+whitespace = ' ' | '\n' | '\r' | '\t' | ''
 ```
 | indicates OR.
 
