@@ -16,15 +16,15 @@ We use a PEG (Parsing Expression Grammar) = a grammar where the choices are orde
 ```
 protocol = 'https' | 'http'
 ```
-We first try to match 'https' and only if that would not succeed, we try 'http'.
+We first try to match 'https' and only if that would not succeed, we try 'http'.  
 See: https://parsica.verraes.net/docs/tutorial/order_matters
 
-###Parts:
+### Parts:
 * Grammar in PHP: an array of rules, each rule consisting of a symbol and an array of expressions
 * Parser for EBNF, so we can read a grammar into our PHP-format 
 * The generator, that can build the parser source-code from the grammar. 
 
-###Investigate
+### Investigate
 * can we (automatically) convert any CFG into a Parsica-parser? Are there limitations to such a LL-parser?
 * how to define indentation, used to indicate begin and end of blocks, in a grammar? 
 * can we do anything with context sensitivity? For instance; if we want to check uniqueness of keys in JSON-objects?
