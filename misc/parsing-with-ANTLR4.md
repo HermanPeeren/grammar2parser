@@ -376,7 +376,7 @@ In my project to automatically build a parser in Parsica from a given grammar, i
 * investigate splitting in a lexer and a parser. 
 * output of the parser will be a parse tree. Provide a base listener and/or visitor to walk that tree, to build custom applications with the parsed text.
 
-##More about ANTLR
+## More about ANTLR
 In the text I referred to the IntelliJ-ANTLR-plugin (to use in PHPstorm) and the PHP-ANTLR-runtime (to add via Composer). Some more resources:
 * Federico Tomassetti: The ANTLR Mega Tutorial https://tomassetti.me/antlr-mega-tutorial/ 
 * Terence Parr: The Definitive ANTLR 4 Reference https://pragprog.com/titles/tpantlr2/the-definitive-antlr-4-reference/
